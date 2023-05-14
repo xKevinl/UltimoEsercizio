@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-color: cornflowerblue;
+}
+
+header div.titolo{
+    text-align: center;
+    margin-top: 2%;
+}
+
+main div.illustratori {
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 250px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 80px; 
+    list-style-type: none;
+    
+}
+
+nav.home ul {
+    list-style: none;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    padding: 0;
+    gap: 80%;
+}
+
+nav.nomi ul {
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 4%;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    
+}
+
+nav a {
+    color: #252525;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+header div.titolocamillo{
+    padding: 1%;
+}
+main div.testocamillo{
+    padding: 1%;
+    margin-top: 2%;
+    margin-right: 70%;
+    font-size: x-large;
+}
+main div.immaginicamillo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    margin-left: 35%;
+    margin-top: -80%;
+
+}
+main div.immaginicamillo2{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+header div.titolotim{
+    padding: 1%;
+}
+main div.testotim{
+    margin-top: 3%;
+    margin-right: 60%;
+    padding: 1%;
+    font-size: x-large;
+}
+main div.immaginitim1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+    
+    margin-left: 40%;
+    margin-top: -30%;
+}
+main div.apparte{
+    margin-left: -30%;
+}
+main div.immaginitim2{
+   margin-top: -5%;
+   margin-bottom: 10%;
+   margin-left: 1%;
+}
+main div.immaginitim3{
+   margin-left: 15%;
+   margin-top: -8%;
+   
+}
+main div.immaginitim4{
+    margin-left: 20%;
+}
+header div.titolokarlotta{
+    padding: 1%;
+}
+main div.immaginikarlotta1{
+    padding: 3%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+main div.immaginikarlotta2{
+margin-left: 5%;
+float: left;
+}
+main div.testokarlotta{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: x-large;
+}
+main div.immaginikarlotta3{
+    margin-left: 10%;
+    margin-top: 25%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+header div.titoloxoana{
+    padding: 1%;
+}
+main div.immaginixoana1{
+    padding: 3%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+main div.immaginixoana2{
+    float: right;
+    
+}
+main div.testoxoana{
+    margin-left: 5%;
+    font-size: x-large;
+    
+}
+main div.immaginixoana3{
+    margin-left: 3%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+main div.immaginixoana4{
+    margin-left: 3%;
+    gap: 33%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+header div.titololinn{
+    padding: 1%;
+}
+main div.immaginilinn{
+    padding: 1%;
+    margin-left: auto;
+    gap: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-right: 50%;
+}
+main div.testolinn{
+   padding: 1%;
+   margin-top: -125%;
+   float: right;
+   margin-left: 50%;
+   font-size: x-large;
+}
+header div.titoloboca{
+    padding: 1%;
+}
+main div.immaginiboca1{
+    padding: 1%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+main div.testoboca{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: x-large;
+}
+main div.immaginiboca2{
+    padding: 1%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+main div.immaginiboca3{
+    padding: 1%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-left: 15%;
+}
+header div.titolocontatti{
+    padding: 5%;
+    text-align: center;
+}
+main div.testocontatti{
+    padding: 5%;
+}
+footer div.footer{
+    padding: 2%;
+    background-color: cornflowerblue;
+}
+
+footer div.linkcontatti{
+    margin-top: 3%;
+    margin-left: 20%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10%;
+
+}
+footer div.linkcontatti a{
+    text-decoration: none;
+    color: rgb(197, 12, 12);
+    
+}
